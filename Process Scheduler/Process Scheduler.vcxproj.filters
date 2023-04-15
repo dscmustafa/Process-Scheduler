@@ -11,6 +11,7 @@
     <ClCompile Include="src\excute\excute.cpp" />
     <ClCompile Include="src\criterion\criterion.cpp" />
     <ClCompile Include="src\block\block.cpp" />
+    <ClCompile Include="src\wrapper\wrapper.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\utils\utils.h" />
@@ -23,5 +24,6 @@
     <ClInclude Include="src\excute\excute.h" />
     <ClInclude Include="src\criterion\criterion.h" />
     <ClInclude Include="src\block\block.h" />
+    <ClInclude Include="src\wrapper\wrapper.h" />
   </ItemGroup>
 </Project>

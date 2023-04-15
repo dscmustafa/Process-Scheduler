@@ -157,6 +157,7 @@
     <ClCompile Include="src\processors\SJF\SJF.cpp" />
     <ClCompile Include="src\scheduler\scheduler.cpp" />
     <ClCompile Include="src\terminate\terminate.cpp" />
+    <ClCompile Include="src\wrapper\wrapper.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\block\block.h" />
@@ -169,6 +170,7 @@
     <ClInclude Include="src\scheduler\scheduler.h" />
     <ClInclude Include="src\terminate\terminate.h" />
     <ClInclude Include="src\utils\utils.h" />
+    <ClInclude Include="src\wrapper\wrapper.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
