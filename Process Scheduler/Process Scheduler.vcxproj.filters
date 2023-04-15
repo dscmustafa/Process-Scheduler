@@ -2,8 +2,26 @@
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\terminate\terminate.cpp" />
+    <ClCompile Include="src\scheduler\scheduler.cpp" />
+    <ClCompile Include="src\processors\FCFS\FCFS.cpp" />
+    <ClCompile Include="src\processors\Round_Robin\Round_Robin.cpp" />
+    <ClCompile Include="src\processors\SJF\SJF.cpp" />
+    <ClCompile Include="src\gui\gui.cpp" />
+    <ClCompile Include="src\excute\excute.cpp" />
+    <ClCompile Include="src\criterion\criterion.cpp" />
+    <ClCompile Include="src\block\block.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\utils\utils.h" />
+    <ClInclude Include="src\terminate\terminate.h" />
+    <ClInclude Include="src\scheduler\scheduler.h" />
+    <ClInclude Include="src\processors\FCFS\FCFS.h" />
+    <ClInclude Include="src\processors\Round_Robin\Round_Robin.h" />
+    <ClInclude Include="src\processors\SJF\SJF.h" />
+    <ClInclude Include="src\gui\gui.h" />
+    <ClInclude Include="src\excute\excute.h" />
+    <ClInclude Include="src\criterion\criterion.h" />
+    <ClInclude Include="src\block\block.h" />
   </ItemGroup>
 </Project>
