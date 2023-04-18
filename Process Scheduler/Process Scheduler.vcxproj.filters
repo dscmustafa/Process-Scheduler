@@ -1,17 +1,19 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="main.cpp" />
     <ClCompile Include="src\terminate\terminate.cpp" />
     <ClCompile Include="src\scheduler\scheduler.cpp" />
     <ClCompile Include="src\processors\FCFS\FCFS.cpp" />
     <ClCompile Include="src\processors\Round_Robin\Round_Robin.cpp" />
     <ClCompile Include="src\processors\SJF\SJF.cpp" />
     <ClCompile Include="src\gui\gui.cpp" />
-    <ClCompile Include="src\excute\excute.cpp" />
     <ClCompile Include="src\criterion\criterion.cpp" />
     <ClCompile Include="src\block\block.cpp" />
     <ClCompile Include="src\wrapper\wrapper.cpp" />
+    <ClCompile Include="libs\BSTree\Node\Node.cpp" />
+    <ClCompile Include="libs\BSTree\BSTree.cpp" />
+    <ClCompile Include="libs\helpers\helpers.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\utils\utils.h" />
@@ -21,9 +23,14 @@
     <ClInclude Include="src\processors\Round_Robin\Round_Robin.h" />
     <ClInclude Include="src\processors\SJF\SJF.h" />
     <ClInclude Include="src\gui\gui.h" />
-    <ClInclude Include="src\excute\excute.h" />
     <ClInclude Include="src\criterion\criterion.h" />
     <ClInclude Include="src\block\block.h" />
     <ClInclude Include="src\wrapper\wrapper.h" />
+    <ClInclude Include="libs\BSTree\Node\Node.h" />
+    <ClInclude Include="libs\BSTree\BSTree.h" />
+    <ClInclude Include="libs\helpers\helpers.h" />
+    <ClInclude Include="src\processors\processor\processor.h" />
+    <ClInclude Include="src\criterion\stdafx.h" />
+    <ClInclude Include="src\criterion\dependencies.h" />
   </ItemGroup>
 </Project>
